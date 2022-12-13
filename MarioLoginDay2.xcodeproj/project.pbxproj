@@ -99,10 +99,11 @@
 		A9CA5DB32948B6130027F8BA /* MarioLoginDay2 */ = {
 			isa = PBXGroup;
 			children = (
+				A9CA5DE62948B9E20027F8BA /* Model */,
+				A9CA5DE52948B9B20027F8BA /* Controller */,
+				A9CA5DE42948B9810027F8BA /* View */,
 				A9CA5DB42948B6130027F8BA /* AppDelegate.swift */,
 				A9CA5DB62948B6130027F8BA /* SceneDelegate.swift */,
-				A9CA5DB82948B6130027F8BA /* ViewController.swift */,
-				A9CA5DBA2948B6130027F8BA /* Main.storyboard */,
 				A9CA5DBD2948B6140027F8BA /* Assets.xcassets */,
 				A9CA5DBF2948B6140027F8BA /* LaunchScreen.storyboard */,
 				A9CA5DC22948B6140027F8BA /* Info.plist */,
@@ -125,6 +126,29 @@
 				A9CA5DD72948B6140027F8BA /* MarioLoginDay2UITestsLaunchTests.swift */,
 			);
 			path = MarioLoginDay2UITests;
+			sourceTree = "<group>";
+		};
+		A9CA5DE42948B9810027F8BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA5DBA2948B6130027F8BA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9CA5DE52948B9B20027F8BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA5DB82948B6130027F8BA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A9CA5DE62948B9E20027F8BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +461,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G35WYL59CS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarioLoginDay2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +489,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G35WYL59CS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarioLoginDay2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
