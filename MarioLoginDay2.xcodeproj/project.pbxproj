@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9CA5DB52948B6130027F8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CA5DB42948B6130027F8BA /* AppDelegate.swift */; };
+		A9CA5DB72948B6130027F8BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CA5DB62948B6130027F8BA /* SceneDelegate.swift */; };
+		A9CA5DB92948B6130027F8BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CA5DB82948B6130027F8BA /* ViewController.swift */; };
+		A9CA5DBC2948B6130027F8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CA5DBA2948B6130027F8BA /* Main.storyboard */; };
+		A9CA5DBE2948B6140027F8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CA5DBD2948B6140027F8BA /* Assets.xcassets */; };
+		A9CA5DC12948B6140027F8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CA5DBF2948B6140027F8BA /* LaunchScreen.storyboard */; };
+		A9CA5DCC2948B6140027F8BA /* MarioLoginDay2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CA5DCB2948B6140027F8BA /* MarioLoginDay2Tests.swift */; };
+		A9CA5DD62948B6140027F8BA /* MarioLoginDay2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CA5DD52948B6140027F8BA /* MarioLoginDay2UITests.swift */; };
+		A9CA5DD82948B6140027F8BA /* MarioLoginDay2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CA5DD72948B6140027F8BA /* MarioLoginDay2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9CA5DC82948B6140027F8BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CA5DA92948B6130027F8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CA5DB02948B6130027F8BA;
+			remoteInfo = MarioLoginDay2;
+		};
+		A9CA5DD22948B6140027F8BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CA5DA92948B6130027F8BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CA5DB02948B6130027F8BA;
+			remoteInfo = MarioLoginDay2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9CA5DB12948B6130027F8BA /* MarioLoginDay2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioLoginDay2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CA5DB42948B6130027F8BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9CA5DB62948B6130027F8BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9CA5DB82948B6130027F8BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9CA5DBB2948B6130027F8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9CA5DBD2948B6140027F8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9CA5DC02948B6140027F8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9CA5DC22948B6140027F8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CA5DC72948B6140027F8BA /* MarioLoginDay2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioLoginDay2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CA5DCB2948B6140027F8BA /* MarioLoginDay2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioLoginDay2Tests.swift; sourceTree = "<group>"; };
+		A9CA5DD12948B6140027F8BA /* MarioLoginDay2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioLoginDay2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CA5DD52948B6140027F8BA /* MarioLoginDay2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioLoginDay2UITests.swift; sourceTree = "<group>"; };
+		A9CA5DD72948B6140027F8BA /* MarioLoginDay2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioLoginDay2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9CA5DAE2948B6130027F8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA5DC42948B6140027F8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA5DCE2948B6140027F8BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9CA5DA82948B6130027F8BA = {
+			isa = PBXGroup;
+			children = (
+				A9CA5DB32948B6130027F8BA /* MarioLoginDay2 */,
+				A9CA5DCA2948B6140027F8BA /* MarioLoginDay2Tests */,
+				A9CA5DD42948B6140027F8BA /* MarioLoginDay2UITests */,
+				A9CA5DB22948B6130027F8BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9CA5DB22948B6130027F8BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA5DB12948B6130027F8BA /* MarioLoginDay2.app */,
+				A9CA5DC72948B6140027F8BA /* MarioLoginDay2Tests.xctest */,
+				A9CA5DD12948B6140027F8BA /* MarioLoginDay2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9CA5DB32948B6130027F8BA /* MarioLoginDay2 */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA5DB42948B6130027F8BA /* AppDelegate.swift */,
+				A9CA5DB62948B6130027F8BA /* SceneDelegate.swift */,
+				A9CA5DB82948B6130027F8BA /* ViewController.swift */,
+				A9CA5DBA2948B6130027F8BA /* Main.storyboard */,
+				A9CA5DBD2948B6140027F8BA /* Assets.xcassets */,
+				A9CA5DBF2948B6140027F8BA /* LaunchScreen.storyboard */,
+				A9CA5DC22948B6140027F8BA /* Info.plist */,
+			);
+			path = MarioLoginDay2;
+			sourceTree = "<group>";
+		};
+		A9CA5DCA2948B6140027F8BA /* MarioLoginDay2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA5DCB2948B6140027F8BA /* MarioLoginDay2Tests.swift */,
+			);
+			path = MarioLoginDay2Tests;
+			sourceTree = "<group>";
+		};
+		A9CA5DD42948B6140027F8BA /* MarioLoginDay2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA5DD52948B6140027F8BA /* MarioLoginDay2UITests.swift */,
+				A9CA5DD72948B6140027F8BA /* MarioLoginDay2UITestsLaunchTests.swift */,
+			);
+			path = MarioLoginDay2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9CA5DB02948B6130027F8BA /* MarioLoginDay2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CA5DDB2948B6140027F8BA /* Build configuration list for PBXNativeTarget "MarioLoginDay2" */;
+			buildPhases = (
+				A9CA5DAD2948B6130027F8BA /* Sources */,
+				A9CA5DAE2948B6130027F8BA /* Frameworks */,
+				A9CA5DAF2948B6130027F8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioLoginDay2;
+			productName = MarioLoginDay2;
+			productReference = A9CA5DB12948B6130027F8BA /* MarioLoginDay2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9CA5DC62948B6140027F8BA /* MarioLoginDay2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CA5DDE2948B6140027F8BA /* Build configuration list for PBXNativeTarget "MarioLoginDay2Tests" */;
+			buildPhases = (
+				A9CA5DC32948B6140027F8BA /* Sources */,
+				A9CA5DC42948B6140027F8BA /* Frameworks */,
+				A9CA5DC52948B6140027F8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CA5DC92948B6140027F8BA /* PBXTargetDependency */,
+			);
+			name = MarioLoginDay2Tests;
+			productName = MarioLoginDay2Tests;
+			productReference = A9CA5DC72948B6140027F8BA /* MarioLoginDay2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9CA5DD02948B6140027F8BA /* MarioLoginDay2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CA5DE12948B6140027F8BA /* Build configuration list for PBXNativeTarget "MarioLoginDay2UITests" */;
+			buildPhases = (
+				A9CA5DCD2948B6140027F8BA /* Sources */,
+				A9CA5DCE2948B6140027F8BA /* Frameworks */,
+				A9CA5DCF2948B6140027F8BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CA5DD32948B6140027F8BA /* PBXTargetDependency */,
+			);
+			name = MarioLoginDay2UITests;
+			productName = MarioLoginDay2UITests;
+			productReference = A9CA5DD12948B6140027F8BA /* MarioLoginDay2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9CA5DA92948B6130027F8BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A9CA5DB02948B6130027F8BA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A9CA5DC62948B6140027F8BA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A9CA5DB02948B6130027F8BA;
+					};
+					A9CA5DD02948B6140027F8BA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A9CA5DB02948B6130027F8BA;
+					};
+				};
+			};
+			buildConfigurationList = A9CA5DAC2948B6130027F8BA /* Build configuration list for PBXProject "MarioLoginDay2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9CA5DA82948B6130027F8BA;
+			productRefGroup = A9CA5DB22948B6130027F8BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9CA5DB02948B6130027F8BA /* MarioLoginDay2 */,
+				A9CA5DC62948B6140027F8BA /* MarioLoginDay2Tests */,
+				A9CA5DD02948B6140027F8BA /* MarioLoginDay2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9CA5DAF2948B6130027F8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA5DC12948B6140027F8BA /* LaunchScreen.storyboard in Resources */,
+				A9CA5DBE2948B6140027F8BA /* Assets.xcassets in Resources */,
+				A9CA5DBC2948B6130027F8BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA5DC52948B6140027F8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA5DCF2948B6140027F8BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9CA5DAD2948B6130027F8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA5DB92948B6130027F8BA /* ViewController.swift in Sources */,
+				A9CA5DB52948B6130027F8BA /* AppDelegate.swift in Sources */,
+				A9CA5DB72948B6130027F8BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA5DC32948B6140027F8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA5DCC2948B6140027F8BA /* MarioLoginDay2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA5DCD2948B6140027F8BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA5DD62948B6140027F8BA /* MarioLoginDay2UITests.swift in Sources */,
+				A9CA5DD82948B6140027F8BA /* MarioLoginDay2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9CA5DC92948B6140027F8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CA5DB02948B6130027F8BA /* MarioLoginDay2 */;
+			targetProxy = A9CA5DC82948B6140027F8BA /* PBXContainerItemProxy */;
+		};
+		A9CA5DD32948B6140027F8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CA5DB02948B6130027F8BA /* MarioLoginDay2 */;
+			targetProxy = A9CA5DD22948B6140027F8BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9CA5DBA2948B6130027F8BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CA5DBB2948B6130027F8BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9CA5DBF2948B6140027F8BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CA5DC02948B6140027F8BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9CA5DD92948B6140027F8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9CA5DDA2948B6140027F8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9CA5DDC2948B6140027F8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarioLoginDay2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.MarioLoginDay2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9CA5DDD2948B6140027F8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarioLoginDay2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.MarioLoginDay2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9CA5DDF2948B6140027F8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.MarioLoginDay2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioLoginDay2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarioLoginDay2";
+			};
+			name = Debug;
+		};
+		A9CA5DE02948B6140027F8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.MarioLoginDay2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioLoginDay2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarioLoginDay2";
+			};
+			name = Release;
+		};
+		A9CA5DE22948B6140027F8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.MarioLoginDay2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarioLoginDay2;
+			};
+			name = Debug;
+		};
+		A9CA5DE32948B6140027F8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.MarioLoginDay2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarioLoginDay2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9CA5DAC2948B6130027F8BA /* Build configuration list for PBXProject "MarioLoginDay2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA5DD92948B6140027F8BA /* Debug */,
+				A9CA5DDA2948B6140027F8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CA5DDB2948B6140027F8BA /* Build configuration list for PBXNativeTarget "MarioLoginDay2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA5DDC2948B6140027F8BA /* Debug */,
+				A9CA5DDD2948B6140027F8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CA5DDE2948B6140027F8BA /* Build configuration list for PBXNativeTarget "MarioLoginDay2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA5DDF2948B6140027F8BA /* Debug */,
+				A9CA5DE02948B6140027F8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CA5DE12948B6140027F8BA /* Build configuration list for PBXNativeTarget "MarioLoginDay2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA5DE22948B6140027F8BA /* Debug */,
+				A9CA5DE32948B6140027F8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9CA5DA92948B6130027F8BA /* Project object */;
+}
